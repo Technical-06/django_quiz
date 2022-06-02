@@ -1,0 +1,36 @@
+.heading {
+  text-align: center; 
+  margin: auto; 
+  margin-top: 15rem;
+  
+}
+body{
+    background-image: url("https://st3.depositphotos.com/7865540/12759/i/950/depositphotos_127590320-stock-photo-male-hands-holding-smartphone.jpg");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+
+}
+.text {
+  color: blue;
+  text-align: center;
+}
+
+.button {
+  width: 8%;
+  height: 2rem;
+  justify-content: space-between;
+  margin: 1%;
+  border-radius: 0.5rem;
+  border-color: lightcoral;
+}
+/* .setbutton {
+  width: 8%;
+  height: 2rem;
+  justify-content: space-between;
+  margin: 1%;
+  border-radius: 0.5rem;
+  border-color: lightcoral;
+} */

@@ -1,0 +1,30 @@
+<html>
+<head>
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}" />
+</head>
+<body>
+<div class="heading">
+  <h1 class="text">DO YOU WANT TO PLAY?</h1>
+  <button class="button"
+  >
+    <a
+      class="btn btn-primary btn-lg active"
+      role="button"
+      href="/ques"
+      aria-pressed="true"
+      ><b>Yes let's play</b></a
+    >
+</button>
+  <button class="button">
+    <a
+      class="btn btn-primary btn-lg active"
+      role="button"
+      href="/thanks"
+      aria-pressed="true"
+      ><b>No Thanks</b></a
+    >
+  </button>
+</div>
+</body>
+</html>
